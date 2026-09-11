@@ -14,7 +14,7 @@ public class Multiplos {
         System.out.println("Digite o segundo numero: ");
         numeroB = sc.nextInt();
 
-        if (numeroA % numeroB ==0){
+        if (numeroA % numeroB ==0 || numeroB % numeroA ==0) {
             System.out.println("Sao multiplos");
         } else {
             System.out.println("Nao sao multiplos");
